@@ -1,0 +1,10 @@
+include honeybee_standards/data/constructions/*.idf
+include honeybee_standards/data/constructions/*.json
+include honeybee_standards/data/schedules/*.idf
+include honeybee_standards/data/schedules/*.json
+include honeybee_standards/data/constructionsets/*.json
+include honeybee_standards/data/programtypes/*.json
+include honeybee_standards/data/modifiers/*.mat
+include honeybee_standards/data/modifiers/*.rad
+include honeybee_standards/data/modifiers/*.json
+include honeybee_standards/data/modifiersets/*.json
