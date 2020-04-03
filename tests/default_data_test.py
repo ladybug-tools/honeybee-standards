@@ -21,7 +21,7 @@ import pytest
 
 
 def test_construction_lib():
-    """Test that the all of the constructions in the default library can be parsed in."""
+    """Test that the all of the constructions in the default library can be parsed."""
     constr_default = './honeybee_standards/data/constructions/default.idf'
 
     opaque_constrs = OpaqueConstruction.extract_all_from_idf_file(constr_default)
@@ -54,9 +54,9 @@ def test_constructionsets_lib():
     csets = []
     with open(constr_default, 'r') as json_file:
         c_dict = json.load(json_file)
-        for c_name in c_dict:
+        for c_id in c_dict:
             constructionset = ConstructionSet.from_dict_abridged(
-                c_dict[c_name], opaque_cs[0] + window_cs[1])
+                c_dict[c_id], opaque_cs[0] + window_cs[1])
             csets.append(constructionset)
 
     assert len(csets) >= 1
@@ -83,13 +83,13 @@ def test_programtype_lib():
     scheds = {}
     for sched in schedule_rulesets:
         assert isinstance(sched, ScheduleRuleset)
-        scheds[sched.name] = sched
+        scheds[sched.identifier] = sched
 
     ptypes = []
     with open(ptype_default, 'r') as json_file:
         p_dict = json.load(json_file)
-        for p_name in p_dict:
-            programtype = ProgramType.from_dict_abridged(p_dict[p_name], scheds)
+        for p_id in p_dict:
+            programtype = ProgramType.from_dict_abridged(p_dict[p_id], scheds)
             ptypes.append(programtype)
 
     assert len(ptypes) >= 2
@@ -122,13 +122,13 @@ def test_modifiersets_lib():
         rad_dicts = string_to_dicts(f.read())
         for mod_dict in rad_dicts:
             mod = dict_to_modifier(mod_dict)
-            modifiers[mod.name] = mod
+            modifiers[mod.identifier] = mod
 
     msets = []
     with open(modset_default, 'r') as json_file:
         m_dict = json.load(json_file)
-        for m_name in m_dict:
-            modifierset = ModifierSet.from_dict_abridged(m_dict[m_name], modifiers)
+        for m_id in m_dict:
+            modifierset = ModifierSet.from_dict_abridged(m_dict[m_id], modifiers)
             msets.append(modifierset)
 
     assert len(msets) >= 4
