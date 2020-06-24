@@ -1,0 +1,23 @@
+honeybee\_standards.data package
+================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   honeybee_standards.data.constructions
+   honeybee_standards.data.constructionsets
+   honeybee_standards.data.modifiers
+   honeybee_standards.data.modifiersets
+   honeybee_standards.data.programtypes
+   honeybee_standards.data.schedules
+
+Module contents
+---------------
+
+.. automodule:: honeybee_standards.data
+   :members:
+   :undoc-members:
+   :show-inheritance:

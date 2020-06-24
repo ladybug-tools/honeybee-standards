@@ -1,0 +1,10 @@
+honeybee\_standards.data.modifiers package
+==========================================
+
+Module contents
+---------------
+
+.. automodule:: honeybee_standards.data.modifiers
+   :members:
+   :undoc-members:
+   :show-inheritance:

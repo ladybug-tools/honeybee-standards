@@ -1,0 +1,10 @@
+honeybee\_standards.data.schedules package
+==========================================
+
+Module contents
+---------------
+
+.. automodule:: honeybee_standards.data.schedules
+   :members:
+   :undoc-members:
+   :show-inheritance:

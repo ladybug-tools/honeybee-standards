@@ -1,0 +1,10 @@
+honeybee\_standards.data.constructions package
+==============================================
+
+Module contents
+---------------
+
+.. automodule:: honeybee_standards.data.constructions
+   :members:
+   :undoc-members:
+   :show-inheritance:
