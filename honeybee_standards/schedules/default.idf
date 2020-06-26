@@ -143,27 +143,6 @@ ScheduleTypeLimits,
   0.05;                     !- value until time 9
 
  Schedule:Day:Interval,
-  OfficeMedium ACTIVITY_SCH_Default, !- schedule name
-  ,                         !- schedule type limits
-  No,                       !- interpolate to timestep
-  24:00,                    !- time 1 {hh:mm}
-  120.0;                    !- value until time 1
-
- Schedule:Day:Interval,
-  OfficeMedium ACTIVITY_SCH_Default_SmrDsn, !- schedule name
-  ,                         !- schedule type limits
-  No,                       !- interpolate to timestep
-  24:00,                    !- time 1 {hh:mm}
-  120.0;                    !- value until time 1
-
- Schedule:Day:Interval,
-  OfficeMedium ACTIVITY_SCH_Default_WntrDsn, !- schedule name
-  ,                         !- schedule type limits
-  No,                       !- interpolate to timestep
-  24:00,                    !- time 1 {hh:mm}
-  120.0;                    !- value until time 1
-
- Schedule:Day:Interval,
   OfficeMedium BLDG_LIGHT_SCH_2013_Sat, !- schedule name
   ,                         !- schedule type limits
   No,                       !- interpolate to timestep
@@ -486,30 +465,6 @@ ScheduleTypeLimits,
   OfficeMedium BLDG_OCC_SCH_WntrDsn, !- winter design day
   OfficeMedium BLDG_OCC_SCH_Default, !- custom day 1
   OfficeMedium BLDG_OCC_SCH_Default; !- custom day 2
-
- Schedule:Year,
-  Generic Office Activity,  !- schedule name
-  Activity Level,           !- schedule type limits
-  OfficeMedium ACTIVITY_SCH_Week 1, !- week schedule name 1
-  1,                        !- start month 1
-  1,                        !- start day 1
-  12,                       !- end month 1
-  31;                       !- end day 1
-
- Schedule:Week:Daily,
-  OfficeMedium ACTIVITY_SCH_Week 1, !- name
-  OfficeMedium ACTIVITY_SCH_Default, !- sunday
-  OfficeMedium ACTIVITY_SCH_Default, !- monday
-  OfficeMedium ACTIVITY_SCH_Default, !- tuesday
-  OfficeMedium ACTIVITY_SCH_Default, !- wednesday
-  OfficeMedium ACTIVITY_SCH_Default, !- thursday
-  OfficeMedium ACTIVITY_SCH_Default, !- friday
-  OfficeMedium ACTIVITY_SCH_Default, !- saturday
-  OfficeMedium ACTIVITY_SCH_Default, !- holiday
-  OfficeMedium ACTIVITY_SCH_Default_SmrDsn, !- summer design day
-  OfficeMedium ACTIVITY_SCH_Default_WntrDsn, !- winter design day
-  OfficeMedium ACTIVITY_SCH_Default, !- custom day 1
-  OfficeMedium ACTIVITY_SCH_Default; !- custom day 2
 
  Schedule:Year,
   Generic Office Lighting,  !- schedule name
