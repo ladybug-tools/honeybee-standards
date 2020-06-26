@@ -1,48 +1,35 @@
 [![Build Status](https://travis-ci.org/ladybug-tools/honeybee-standards.svg?branch=master)](https://travis-ci.org/ladybug-tools/honeybee-standards)
-[![Coverage Status](https://coveralls.io/repos/github/ladybug-tools/honeybee-standards/badge.svg?branch=master)](https://coveralls.io/github/ladybug-tools/honeybee-standards)
 
-[![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)](https://www.python.org/downloads/release/python-270/) [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)](https://www.python.org/downloads/release/python-270/) [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) [![IronPython](https://img.shields.io/badge/ironpython-2.7-red.svg)](https://github.com/IronLanguages/ironpython2/releases/tag/ipy-2.7.8/)
 
 # honeybee-standards
 
-Default standards and templates used throughout honeybee extensions.
+Default standards and templates used throughout honeybee extensions and plugins.
+
+In addition to housing defaults, this package also includes a folder structure
+that can be used to add assets into the installed standards libraries of the
+extensions. Assets can be added by placing honeybee .json, .idf, or .rad files
+in the respective folder within the folder structure (or by adding them to the
+respective user_library.json, user_library.idf, or user_library.rad).
+
+## Energy assets
+
+The following energy asset can be added with this package:
+
+* Schedules (and schedule type limits)
+* Program Types
+* Constructions (and material layers)
+* Construction Sets
+
+## Radiance assets
+
+The following radiance asset can be added with this package:
+
+* Modifiers
+* Modifier Sets
 
 ## Installation
+
 ```console
 pip install honeybee-standards
-```
-
-## QuickStart
-```python
-import honeybee_standards
-
-```
-
-## [API Documentation](http://ladybug-tools.github.io/honeybee-standards/docs)
-
-## Local Development
-1. Clone this repo locally
-```console
-git clone git@github.com:ladybug-tools/honeybee-standards
-
-# or
-
-git clone https://github.com/ladybug-tools/honeybee-standards
-```
-2. Install dependencies:
-```console
-cd honeybee-standards
-pip install -r dev-requirements.txt
-pip install -r requirements.txt
-```
-
-3. Run Tests:
-```console
-python -m pytest tests/
-```
-
-4. Generate Documentation:
-```console
-sphinx-apidoc -f -e -d 4 -o ./docs ./honeybee_standards
-sphinx-build -b html ./docs ./docs/_build/docs
 ```
