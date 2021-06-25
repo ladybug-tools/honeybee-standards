@@ -1,7 +1,8 @@
 !-   =========  DEFAULT HONEYBEE SCHEDULES =========
 !- These schedules are loaded into the honeybee_energy library as defaults.
-!- Editing these schedules and/or schedule types will edit the defaults used across
-!- all of honeybee_energy as long as the names of the constructions are kept.
+!- They are not included in the standards package but are provided here as a
+!- sample for how user-specific schedules and schedule type limits should be
+!- added to honeybee_standards.
 
 
 

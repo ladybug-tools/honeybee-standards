@@ -1,12 +1,13 @@
 !-   =========  DEFAULT HONEYBEE CONSTRUCTIONS =========
 !- These constructions are loaded into the honeybee_energy library as defaults.
-!- Editing these materials and/or constructions will edit the defaults used across
-!- all of honeybee_energy as long as the names of the constructions are kept.
+!- They are not included in the standards package but are provided here as a
+!- sample for how user-specific constructions and materials should be added to
+!- honeybee_standards.
 
 !- Note that these constructions are not in accordance with any particular building
 !- code or climate zone. They are just meant to represent "typical" constructions
 !- that are plausible for a building constructed in the last few decades. While they
-!- provide a decent starting point, it is recommended that at least the outdoor
+!- provide a decent starting point, it is recommended that at least the exterior
 !- constructions be changed to suit a given project building code and climate.
 
 
