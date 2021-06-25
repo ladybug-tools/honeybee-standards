@@ -1,4 +1,5 @@
 {
+    "__comment__": "Default ProgramTypes, not included in the package but provided as a sample for how user-specific ProgramTypes should be added to honeybee_standards.",
     "Plenum": {
         "type": "ProgramTypeAbridged",
         "identifier": "Plenum"

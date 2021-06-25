@@ -1,7 +1,7 @@
 #   =========  DEFAULT HONEYBEE MODIFIERS =========
 # These modifiers are loaded into the honeybee_radiance library as defaults.
-# Editing these modifiers will edit the defaults used across all of
-# honeybee_radiance as long as the names of the modifiers are kept.
+# They are not included in the standards package but are provided here as a
+# sample for how user-specific modifiers should be added to honeybee_standards
 
 
 void plastic generic_floor_0.20
