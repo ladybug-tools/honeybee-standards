@@ -334,14 +334,17 @@
             "dependencies": []
         },
         {
-            "modifier": null,
-            "type": "Glass",
-            "identifier": "air_boundary",
-            "r_transmissivity": 1.0,
-            "g_transmissivity": 1.0,
-            "b_transmissivity": 1.0,
-            "refraction_index": null,
-            "dependencies": []
+            "r_reflectance": 1.0, 
+            "b_reflectance": 1.0, 
+            "roughness": 0.0, 
+            "identifier": "air_boundary", 
+            "type": "Trans", 
+            "dependencies": [], 
+            "g_reflectance": 1.0, 
+            "specularity": 0.0, 
+            "transmitted_diff": 1.0, 
+            "transmitted_spec": 1.0, 
+            "modifier": null
         },
         {
             "modifier": null,

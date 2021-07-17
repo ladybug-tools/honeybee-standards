@@ -84,10 +84,10 @@ void plastic generic_ceiling_exterior_side_0.35
 0
 5 0.35 0.35 0.35 0.0 0.0
 
-void glass air_boundary
+void trans air_boundary
 0
 0
-3 1.0 1.0 1.0
+7 1.0 1.0 1.0 0.0 0.0 1.0 1.0
 
 void plastic black
 0
