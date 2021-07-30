@@ -1672,11 +1672,13 @@
         },
         {
             "type": "ScheduleTypeLimit",
-            "identifier": "Thermostat Control", 
-            "upper_limit": 4.0, 
+            "identifier": "Control Level", 
+            "upper_limit": {
+                "type": "NoLimit"
+            }, 
             "lower_limit": 0.0, 
             "numeric_type": "Discrete", 
-            "unit_type": "Dimensionless"
-        }        
+            "unit_type": "Control"
+        }
     ]
 }
