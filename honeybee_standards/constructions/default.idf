@@ -232,6 +232,22 @@ Construction,              !- opaque
  Generic LW Concrete;      !- layer 3
 
 Construction,              !- opaque
+ Ceiling Plenum Top,       !- name
+ Generic LW Concrete;      !- layer 1
+
+Construction,              !- opaque
+ Ceiling Plenum Bottom,    !- name
+ Generic Acoustic Tile;    !- layer 1
+
+Construction,              !- opaque
+ Floor Plenum Top,         !- name
+ Generic 25mm Wood;        !- layer 1
+
+Construction,              !- opaque
+ Floor Plenum Bottom,      !- name
+ Generic LW Concrete;      !- layer 1
+
+Construction,              !- opaque
  Generic Ground Slab,      !- name
  Generic 50mm Insulation,  !- layer 1
  Generic HW Concrete;      !- layer 2

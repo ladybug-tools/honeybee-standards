@@ -81,6 +81,34 @@
         },
         {
             "type": "OpaqueConstructionAbridged",
+            "identifier": "Ceiling Plenum Top",
+            "materials": [
+                "Generic LW Concrete"
+            ]
+        },
+        {
+            "type": "OpaqueConstructionAbridged",
+            "identifier": "Ceiling Plenum Bottom",
+            "materials": [
+                "Generic Acoustic Tile"
+            ]
+        },
+        {
+            "type": "OpaqueConstructionAbridged",
+            "identifier": "Floor Plenum Top",
+            "materials": [
+                "Generic 25mm Wood"
+            ]
+        },
+        {
+            "type": "OpaqueConstructionAbridged",
+            "identifier": "Floor Plenum Bottom",
+            "materials": [
+                "Generic LW Concrete"
+            ]
+        },
+        {
+            "type": "OpaqueConstructionAbridged",
             "identifier": "Generic Interior Wall",
             "materials": [
                 "Generic Gypsum Board",
